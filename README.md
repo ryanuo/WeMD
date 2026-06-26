@@ -126,7 +126,7 @@ pnpm install
 # 启动 Web 开发服务器
 pnpm dev:web
 
-# 启动桌面端（需先启动 Web）
+# 启动桌面端（会先启动 Web，再启动 Electron）
 pnpm dev:desktop
 ```
 
@@ -154,6 +154,8 @@ WeMD/
 ├── packages/
 │   └── core/       # Markdown 解析 / 主题 / 工具
 ├── templates/      # 主题 CSS 模板
+├── scripts/        # 开发与构建辅助脚本
+├── .github/        # CI、Docker 镜像与发布工作流
 └── turbo.json      # Turborepo 配置
 ```
 
