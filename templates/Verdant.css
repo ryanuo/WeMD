@@ -166,6 +166,8 @@
 
 /* 三级标题 */
 #wemd h3 {
+  background: url(https://edit.wemd.app/themes/verdant/koala-3.png) 5px 56% /
+    15px 15px no-repeat scroll padding-box border-box transparent;
 }
 
 /* 三级标题内容 */
@@ -189,7 +191,7 @@
   float: unset;
   height: auto;
   justify-content: unset;
-  margin: 0px 0px 0px 8px;
+  margin: 0px 0px 0px 26px;
   overflow: unset;
   padding: 0px;
   position: relative;
@@ -203,35 +205,6 @@
 
 /* 三级标题前缀 */
 #wemd h3 .prefix {
-  background: url(https://edit.wemd.app/themes/verdant/koala-3.png) 0% 0% / 15px
-    15px no-repeat scroll padding-box border-box transparent;
-  width: 15px;
-  height: 15px;
-  align-items: unset;
-  border-style: none;
-  border-width: 1px;
-  border-color: rgb(0, 0, 0);
-  border-radius: 0px;
-  box-shadow: none;
-  color: rgb(0, 0, 0);
-  content: "";
-  display: inline-block;
-  font-size: 22px;
-  font-weight: bold;
-  flex-direction: unset;
-  float: unset;
-  justify-content: unset;
-  letter-spacing: 0px;
-  line-height: 1.5em;
-  margin: 0px 0px -2px;
-  overflow: unset;
-  padding: 0px;
-  position: relative;
-  text-align: left;
-  text-indent: 0em;
-  text-shadow: none;
-  transform: none;
-  -webkit-box-reflect: unset;
 }
 
 /* 三级标题后缀 */
